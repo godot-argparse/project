@@ -1,0 +1,3 @@
+[editor_plugins]
+
+enabled=PoolStringArray("gut", "godot-argparse")
