@@ -1,4 +1,5 @@
 extends "res://addons/gut/test.gd"
 
 func test_addon():
-	argparser.ArgumentParser.new()
+	var parser = argparse.ArgumentParser("test")
+	assert_eq("test", parser.proj)

@@ -1,3 +1,7 @@
 [editor_plugins]
 
 enabled=PoolStringArray("gut", "godot-argparse")
+
+[autoload]
+
+argparse="*res://addons/godot-argparse/autoload.gd"
